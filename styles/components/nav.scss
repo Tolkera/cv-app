@@ -1,0 +1,47 @@
+.main-nav {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+}
+
+.nav-item {
+  background: $color_light;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-left: 1px solid #000;
+  display: inline-block;
+
+  &:hover {
+    background: $color_dark;
+    border-left-color: $color_dark;
+  }
+}
+
+.main-nav__item {
+    float: left;
+    margin-left: -5px;
+
+  &:first-child .nav-item {
+    border-left: 0;
+  }
+}
+
+.navItemActive {
+    background: $color_dark;
+}
+
+
+//Skill nav
+
+.skill-nav {
+    margin: 80px 0 30px;
+}
+
+.skill-nav-item {
+    display: inline-block;
+    margin-right: 5px;
+
+    a {
+        font-size: 14px;
+    }
+}

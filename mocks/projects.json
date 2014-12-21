@@ -1,0 +1,80 @@
+[
+    {
+       "category": "HTML and CSS3",
+        "cols": 3,
+        "projects": [
+            {
+                "name": "Sport theme",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa ",
+                "image": "img/sport.jpg",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["HTML", "CCS3", "jQuery", "responsive", "graceful degradation", "OOCSS", "Grunt", "BEM", "Sass"]
+            },
+            {
+                "name": "Fish theme",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa ",
+                "image": "img/fish.jpg",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["HTML", "CCS3", "jQuery", "responsive", "graceful degradation", "OOCSS", "Grunt", "BEM", "Sass"]
+            },
+
+            {
+                "name": "Gato theme",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa",
+                "image": "img/gato.jpg",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["HTML", "CCS3", "jQuery", "responsive", "graceful degradation", "OOCSS", "Grunt", "BEM", "Sass"]
+            }
+        ]
+    },
+    {
+        "category": "jQuery plugins",
+        "cols": 2,
+        "projects": [
+            {
+                "name": "Carouselira",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsaLorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["jQuery", "graceful degradation"]
+            },
+            {
+                "name": "Tagira",
+                "description": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elitconsectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["jQuery"]
+            }
+        ]
+    },
+    {
+        "category": "Apps",
+        "cols": 3,
+        "projects": [
+            {
+                "name": "Note Randomizr",
+                "description": "Web-app for learning notes. If you're currently learning to play smth you'll see what I mean",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["SVG", "jQuery"]
+            },
+            {
+                "name": "MEAN",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["MongoDB", "Mongoose", "ExpressJS", "AngularJS", "NodeJS", "Bootstrap", "Heroku", "Jasmine", "Karma", "Grunt", "Bower"]
+            },
+            {
+                "name": "CV app",
+                "description": "This very CV app. Very simple but nice, isn't it? =)",
+                "demoLink": "http://google.com",
+                "githubLink": "http://github.com",
+                "tags": ["AngularJS", "responsive", "Jasmine", "Karma", "Grunt", "Bower"]
+            }
+        ]
+    }
+]

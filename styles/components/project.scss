@@ -1,0 +1,67 @@
+.category {
+  margin-top: 100px;
+}
+
+.techs__item {
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin-top: 3px;
+  margin-right: 5px;
+/*  background: #fff;
+  color: $color_dark;
+  border: 1px solid $color_dark;*/
+  background: $color_dark;
+  color: #fff;
+}
+
+.project {
+  img {
+    border: 1px solid $color_dark;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+.project-header {
+  position: relative;
+}
+
+.project__heading {
+  padding-right: 100px;
+}
+
+.view-link {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 3px;
+  text-decoration: underline;
+  margin-right: 10px;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.view-links {
+  margin-bottom: 15px;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(../img/icons.png);
+  margin-right: 2px;
+}
+
+.icon--octocat {
+  background-position: 0 -25px;
+}
+
+.icon--internet {
+  background-position: 0 0px;
+}

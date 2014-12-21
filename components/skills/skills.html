@@ -1,0 +1,34 @@
+<div class="section-wrap">
+
+    <h1 class="heading-primary">My skills</h1>
+    <p>
+        My skillset includes: HTML5, CSS3, Javascript(vanilla), jQuery, AngularJS, Jasmine. Click on the below  links to see examples.
+    </p>
+
+    <section class="skill-wrap">
+        <div class="category" data-ng-repeat="category in projects">
+            <h2 class="heading-secondary">{{category.category}}</h2>
+            <div class="grid cf">
+                <div class="grid-col grid-col--{{category.cols}} project" data-ng-repeat="project in category.projects">
+                    <header class="project-header">
+                        <h3 class="heading-tertiary project__heading">{{project.name}}</h3>
+                    </header>
+                    <p>{{project.description}}</p>
+                    <img data-ng-show="project.image" data-ng-src="{{project.image}}" alt=""/>
+                    <div class="view-links">
+                        <a href="{{project.demoLink}}" class="view-link">
+                            <span class="icon icon--internet"></span>Demo
+                        </a>
+                        <a href="{{project.githubLink}}" class="view-link"><span class="icon icon--octocat"></span>Source</a>
+                    </div>
+                    <ul class="techs">
+                        <li class="techs__item" data-ng-repeat="tag in project.tags">{{tag}}</li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+

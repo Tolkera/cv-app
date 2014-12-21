@@ -1,0 +1,21 @@
+.heading-primary {
+    font-size: 40px;
+}
+
+.heading-secondary {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: $color_dark;
+    width: 60%;
+  }
+}
+
+.heading-tertiary {
+  font-size: 20px;
+  color: $color_light;
+}

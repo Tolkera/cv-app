@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Irina's CV app</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <script src="script/production.js"></script>
+    <base href="/tolkera/">
+</head>
+<body data-ng-app="cvApp">
+
+<div class="container">
+    <nav class="main-nav" data-ng-controller="navCtrl">
+        <ul class="cf">
+            <li class="main-nav__item"><a class="nav-item" data-ng-class="{ navItemActive: isNavActive('/')}" href="index">Skills</a></li>
+            <li class="main-nav__item"><a class="nav-item" data-ng-class="{ navItemActive: isNavActive('/about')}"  href="about">About</a></li>
+            <li class="main-nav__item"><a class="nav-item" data-ng-class="{ navItemActive: isNavActive('/contact')}" href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div data-ng-view></div>
+</div>
+
+</body>
+</html>

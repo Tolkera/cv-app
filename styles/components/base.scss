@@ -1,0 +1,35 @@
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
