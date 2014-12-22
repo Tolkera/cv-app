@@ -5,28 +5,28 @@
         "projects": [
             {
                 "name": "Sport theme",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa ",
+                "description": "The theme (psd) was purchased on Themeforest and coded from scratch",
                 "image": "img/sport.jpg",
                 "demoLink": "http://google.com",
                 "githubLink": "http://github.com",
-                "tags": ["HTML", "CCS3", "jQuery", "responsive", "graceful degradation", "OOCSS", "Grunt", "BEM", "Sass"]
+                "tags": ["HTML", "CCS3", "jQuery", "responsive", "OOCSS", "Grunt", "BEM", "Sass"]
             },
             {
                 "name": "Fish theme",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa ",
+                "description": "The theme (psd) was purchased on Themeforest and coded from scratch",
                 "image": "img/fish.jpg",
-                "demoLink": "http://google.com",
-                "githubLink": "http://github.com",
+                "demoLink": "http://alexbondarev.com/tolkera/projects/fish/",
+                "githubLink": "https://github.com/Tolkera/fish-theme",
                 "tags": ["HTML", "CCS3", "jQuery", "responsive", "graceful degradation", "OOCSS", "Grunt", "BEM", "Sass"]
             },
 
             {
                 "name": "Gato theme",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa",
+                "description": "The theme (psd) was purchased on Themeforest and coded from scratch",
                 "image": "img/gato.jpg",
-                "demoLink": "http://google.com",
-                "githubLink": "http://github.com",
-                "tags": ["HTML", "CCS3", "jQuery", "responsive", "graceful degradation", "OOCSS", "Grunt", "BEM", "Sass"]
+                "demoLink": "http://alexbondarev.com/tolkera/projects/gato/",
+                "githubLink": "https://github.com/Tolkera/gato-theme",
+                "tags": ["HTML", "CCS3", "jQuery", "responsive", "OOCSS", "Grunt", "BEM", "Sass"]
             }
         ]
     },
@@ -57,23 +57,23 @@
             {
                 "name": "Note Randomizr",
                 "description": "Web-app for learning notes. If you're currently learning to play smth you'll see what I mean",
-                "demoLink": "http://google.com",
-                "githubLink": "http://github.com",
-                "tags": ["SVG", "jQuery"]
+                "demoLink": "http://alexbondarev.com/tolkera/projects/note-randomizr/",
+                "githubLink": "https://github.com/Tolkera/notes_randomizer",
+                "tags": ["SVG", "jQuery", "responsive"]
             },
             {
                 "name": "MEAN",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet at dolores, explicabo fugit ipsa",
+                "description": "An app built with MEAN stack. My first experience with databases and server side. The users can currently register, log in, update their profile, create lists. In constant fierce development.",
                 "demoLink": "http://google.com",
-                "githubLink": "http://github.com",
-                "tags": ["MongoDB", "Mongoose", "ExpressJS", "AngularJS", "NodeJS", "Bootstrap", "Heroku", "Jasmine", "Karma", "Grunt", "Bower"]
+                "githubLink": "https://gmoti.herokuapp.com/",
+                "tags": ["MongoDB", "Mongoose", "ExpressJS", "AngularJS", "NodeJS", "Bootstrap", "Heroku", "Jasmine", "Grunt", "Bower"]
             },
             {
                 "name": "CV app",
                 "description": "This very CV app. Very simple but nice, isn't it? =)",
                 "demoLink": "http://google.com",
                 "githubLink": "http://github.com",
-                "tags": ["AngularJS", "responsive", "Jasmine", "Karma", "Grunt", "Bower"]
+                "tags": ["AngularJS", "responsive", "Jasmine", "Grunt", "Bower"]
             }
         ]
     }

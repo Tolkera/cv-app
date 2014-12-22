@@ -80,6 +80,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
+  min-width: 320px;
 }
 
 a {
@@ -174,19 +175,19 @@ img {
   color: #01aef0;
 }
 
-.section-wrap {
-  margin-top: 50px;
-}
-
 .container {
   width: 90%;
   margin: 50px auto;
-  min-width: 400px;
   max-width: 1000px;
 }
 
 .category {
-  margin-top: 100px;
+  margin-top: 80px;
+}
+@media (max-width: 500px) {
+  .category {
+    margin-top: 50px;
+  }
 }
 
 .techs__item {
@@ -196,9 +197,6 @@ img {
   padding: 3px 5px;
   margin-top: 3px;
   margin-right: 5px;
-  /*  background: #fff;
-    color: $color_dark;
-    border: 1px solid $color_dark;*/
   background: #582778;
   color: #fff;
 }

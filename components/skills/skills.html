@@ -5,8 +5,8 @@
         My skillset includes: HTML5, CSS3, Javascript(vanilla), jQuery, AngularJS, Jasmine. Click on the below  links to see examples.
     </p>
 
-    <section class="skill-wrap">
-        <div class="category" data-ng-repeat="category in projects">
+
+        <section class="category" data-ng-repeat="category in projects">
             <h2 class="heading-secondary">{{category.category}}</h2>
             <div class="grid cf">
                 <div class="grid-col grid-col--{{category.cols}} project" data-ng-repeat="project in category.projects">
@@ -16,7 +16,7 @@
                     <p>{{project.description}}</p>
                     <img data-ng-show="project.image" data-ng-src="{{project.image}}" alt=""/>
                     <div class="view-links">
-                        <a href="{{project.demoLink}}" class="view-link">
+                        <a href="{{project.demoLink}}" class="view-link" target="_self">
                             <span class="icon icon--internet"></span>Demo
                         </a>
                         <a href="{{project.githubLink}}" class="view-link"><span class="icon icon--octocat"></span>Source</a>
@@ -28,7 +28,6 @@
                 </div>
 
             </div>
-        </div>
-    </section>
+        </section>
 </div>
 
